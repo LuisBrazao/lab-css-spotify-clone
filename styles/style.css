@@ -9,20 +9,27 @@ White: #FFF
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 
 body{
-    font-family: 'Istok';
+    font-family: 'Istok Web';
     color: #1A1A1A;
 }
 
-header>div {
+header>nav>div {
     padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header {
+    background-color: white;
+}
+
+
 nav {
-    width: 1480px;
+    width: 100%;
+    top: 0%;
     position: fixed;
+    background-color: white;
 }
 
 nav ul {
@@ -45,7 +52,7 @@ nav a {
 }
 
 .bounce-animation{
-    height: 80px;
+    height: 10px;
 }
 
 .bounce-animation:hover{
@@ -54,6 +61,12 @@ nav a {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
+
+.content{
+    margin-top: 40px;
+}
+
 
 .music-everyone{
     color: white;
@@ -73,10 +86,11 @@ h1{
 
 .music-everyone p{
     float: center;
-    font-size: 27px;
+    font-size: 23px;
     width: 40%;
     padding-left: 440px;
     padding-right: 440px;
+    line-height: 15px;
 }
 
 .background-text{
@@ -159,6 +173,11 @@ h1{
 .text{
     width: 300px;
     margin-left: 200px;
+    line-height: 25px;
+}
+
+.text p {
+    font-size: 20px;
 }
 
 .logo-normal {
